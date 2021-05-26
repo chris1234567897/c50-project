@@ -1,0 +1,39 @@
+h1{
+    color: chartreuse;
+}
+
+h2,p{
+    text-align: center;
+}
+
+.grid{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.item{
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    justify-content: center;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
